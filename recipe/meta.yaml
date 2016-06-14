@@ -36,6 +36,8 @@ test:
     - python
     - requests
     - mock  # [py2k]
+  imports:
+    - nbpresent
 
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
