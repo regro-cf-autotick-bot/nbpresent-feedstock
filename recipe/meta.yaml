@@ -12,7 +12,7 @@ source:
   sha256: 65f4937b7756d62a507a2701501f5d0c119e4391b0b15e661164b4276b06af11
 
 build:
-  number: 1
+  number: 2
 
 requirements:
   build:
@@ -42,6 +42,7 @@ test:
 about:
   home: https://github.com/{{ gh_org }}/{{ gh_repo }}
   license: BSD-3-Clause
+  license_file: LICENSE
   summary: Next generation slides for Jupyter Notebooks
 
 extra:
